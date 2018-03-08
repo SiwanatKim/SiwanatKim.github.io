@@ -1,0 +1,103 @@
+.top-bar{
+    background-color: #111;
+}
+
+.logo-section{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16rem 0;
+
+}
+
+.feature-section{
+    padding: 3.5rem 0;
+    background-color: black;
+    color: white;
+}
+
+.overview-section{
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+}
+
+.goodbye-section{
+    padding: 3.5rem 0;
+}
+.about-me-section{
+    background-image: url(bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+       
+}
+
+.contact-section{
+    background-image: url(bg4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+}
+
+.footer-section{
+    text-align: center;
+    text-decoration-color: white;
+}
+
+.artwork{
+    padding: 50px;
+    
+}
+
+.fb-section{
+    background-image: url(fb-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+}
+
+.tw-section{
+    background-image: url(tw-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+}
+
+.mail-section{
+    background-image: url(mail-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+}
+
+.gg-section{
+    background-image: url(gg-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+}
+
+.about-me-special{
+    color: white;
+}
+
+body{
+    background-color: black;
+}

@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kim</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="range%20slider%20bar.css">
+    
+</head>
+    <body onload="blinkcolor()">
+        <div class="page1" id="p1">
+            <div class="titlee">
+                <br><br><br><h1>HOW MUCH U</h1>
+                <br>
+                <h1>ADDICTED IN</h1>
+                <br>
+                <h1><span id="gb">G</span><span id="ab">A</span><span id="mb">M</span><span id="eb">E</span><span id="sb">S</span>?</h1>
+
+            </div>
+            <div class="title-pic">
+                <img class="titleimg" src="pic/title-pic.svg">
+            </div>
+            <a href="#p2">
+            <div class="button">
+                <img class="titlebutton" src="pic/title-button.svg">
+            </div></a>
+        </div>
+        
+        
+       
+        <div class="page2" id="p2">
+        <div class="blank"> </div>
+        <div class="stage"><img src="pic/stage1.svg" stpyle="width: 150px"></div>
+            <div class="question1"><br>How much money you <br>spend on games per week</div>
+        <div class="money"><img id="moneyimg" src="pic/money1.svg" style="height:150px"></div>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="5" value="1" class="slider" id="myRange1">
+        <a href="#p3">
+            <div class="button2"><span id="demo1"></span>Bath</div></a>
+        </div>
+       
+ 
+        </div>
+        
+        
+        <div class="page3" id="p3">
+        <div class="blank"> </div>
+        <div class="stage"><img src="pic/stage2.svg" style="width: 150px"></div>
+        <div class="question2"><br>How many hours spend on<br>games per day</div>
+        <div class="clock"><img id="clockimg" src="pic/clock1.svg" style="height:150px"></div>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="3" value="1" class="slider" id="myRange2">
+            <a href="#p4">
+                <p><div class="button2"><span id="demo2"></span>Hours</div></p></a>
+        </div>
+
+        
+            
+        </div>
+        
+        
+        
+        
+        <div class="page4" id="p4">
+        <div class="blank"> </div>
+        <div class="stage"><img src="pic/stage3.svg" style="width: 150px"></div>
+        <div class="question3"><br>How would you feel if<br>you could not play games</div>
+       
+            <div class="row" style="margin-top: 30px;">
+           <div class="heart1" id="h1"></div>
+            <button onclick="heart1()" id="hb1" ><div class="buttonchoicered"></div></button>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+            <div class="heart2" id="h2"></div>
+            <button onclick="heart2()" id="hb2"><div class="buttonchoicered" ></div></button>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+            <div class="heart3" id="h3"></div>
+            <button onclick="heart3()" id="hb3"><div class="buttonchoicered" ></div></button>
+            </div>
+
+            
+        </div>
+        
+        
+        
+        
+        <div class="page5" id="p5">
+        <div class="blank"> </div>
+        <div class="stage"><img src="pic/stage4.svg" style="width: 150px"></div>
+        <div class="question4">n</div>
+        <div class="buttonchoicegreen"></div>
+        <div class="buttonchoiceorange"></div>
+        <div class="buttonchoicered2"></div>
+        
+        </div>
+        
+        
+        
+        
+        
+        <div class="page6" id="p6">
+        <div class="blank"> </div>
+        <div class="stage"><img src="pic/stage5.svg" style="width: 160px"></div>
+        <div class="question5">n</div>
+        <div class="face"><img id="faceimg" src="pic/face1.svg"></div>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="3" value="1" class="slider" id="myRange2">
+            <a href="#p7">
+                <p><div class="button2"><span id="demo2"></span>yay</div></p></a>
+        </div>
+            
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="page7" id="p7">
+        <div class="blank"> </div>
+        <div class="stage"><img src="pic/stage6.svg" style="width: 150px"></div>
+        <div class="question6">n</div>
+        <div class="buttonchoicegreen"></div>
+        <div class="buttonchoiceorange"></div>
+        <div class="buttonchoicered2"></div>
+        
+            
+        </div>
+        
+        
+        
+        
+        <div class="page8" id="p8">
+        <div class="blank"> </div>
+        <div class="stage"><img src="pic/stage7.svg" style="width: 160px"></div>
+        <div class="question7">n</div>
+        <div class="buttonchoicegreen"></div>
+        <div class="buttonchoiceorange"></div>
+        <div class="buttonchoicered2"></div>
+            
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="page9" id="p9">
+        
+        
+        </div>
+        
+        
+        
+        
+        
+        <div class="page10" id="p10">
+        
+        </div>
+    
+<script>
+var blinktime = 100;
+function blinkcolor() {
+document.getElementById("gb").style.color="purple"
+document.getElementById("ab").style.color="blue"
+document.getElementById("mb").style.color="green"
+document.getElementById("eb").style.color="yellow"
+document.getElementById("sb").style.color="red"
+setTimeout("blinkcolor2()",blinktime)
+}
+function blinkcolor2() {
+document.getElementById("ab").style.color="purple"
+document.getElementById("mb").style.color="blue"
+document.getElementById("eb").style.color="green"
+document.getElementById("sb").style.color="yellow"
+document.getElementById("gb").style.color="red"
+setTimeout("blinkcolor3()",blinktime)
+}
+function blinkcolor3() {
+document.getElementById("mb").style.color="purple"
+document.getElementById("eb").style.color="blue"
+document.getElementById("sb").style.color="green"
+document.getElementById("gb").style.color="yellow"
+document.getElementById("ab").style.color="red"
+setTimeout("blinkcolor4()",blinktime)
+}
+function blinkcolor4() {
+document.getElementById("eb").style.color="purple"
+document.getElementById("sb").style.color="blue"
+document.getElementById("gb").style.color="green"
+document.getElementById("ab").style.color="yellow"
+document.getElementById("mb").style.color="red"
+setTimeout("blinkcolor5()",blinktime)
+}
+function blinkcolor5() {
+document.getElementById("sb").style.color="purple"
+document.getElementById("gb").style.color="blue"
+document.getElementById("ab").style.color="green"
+document.getElementById("mb").style.color="yellow"
+document.getElementById("eb").style.color="red"
+setTimeout("blinkcolor()",blinktime)
+}
+//}
+    
+
+    <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="click.js"></script>
+    <script src="range%20slider%20bar1.js"></script>
+    <script src="range%20slider%20bar2.js"></script>
+    <script src="scrollkim.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js">
+    </script>
+    
+    </body>
+</html>

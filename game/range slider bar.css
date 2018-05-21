@@ -1,0 +1,31 @@
+.slider {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 7px;
+    border-radius: 5px;   
+    background:red;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: 1s;
+    transition: opacity 1s;
+    margin-bottom: 50px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 19px;
+    height: 49px;
+    
+    background-image: url(pic/grabhandle.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+    text-align: center
+}
+
